@@ -1,0 +1,9 @@
+#
+#This software is contributed or developed by KYOCERA Corporation.
+#(C) 2012 KYOCERA Corporation
+#
+config SII8334_MHL_TX
+	tristate
+	prompt "Silicon Image HDMI to MHL Tx"
+	depends on I2C && GPIOLIB
+	default y
